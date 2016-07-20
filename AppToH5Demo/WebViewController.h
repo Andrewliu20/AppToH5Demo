@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebViewController.h
 //  AppStateToH5Demo
 //
 //  Created by andrewliu on 16/7/14.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface WebViewController : UIViewController
 
+
+@property (nonatomic,strong) NSString *userId;
 
 @end
-
